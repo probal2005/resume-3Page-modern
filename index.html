@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probal Dhali Resume</title>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #e6ecf3;
+            padding: 25px;
+            color: #222;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, #0f172a, #1e40af);
+            color: #fff;
+            text-align: center;
+            padding: 40px 25px;
+        }
+
+        .header img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 14px;
+            margin: 6px 0;
+        }
+
+        .header i {
+            margin-right: 8px;
+            color: #93c5fd;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .header a:hover {
+            color: #93c5fd;
+        }
+
+        /* SECTION */
+        .section {
+            padding: 28px 30px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            color: #1e40af;
+            border-left: 5px solid #1e40af;
+            padding-left: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        p,
+        li {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        /* LINKS */
+        .links a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            background: #f1f5f9;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #1d4ed8;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background: #e0ecff;
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        /* SKILLS */
+        .skill-item {
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .bar {
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 20px;
+            margin-top: 6px;
+        }
+
+        .bar-fill {
+            height: 8px;
+            background: linear-gradient(90deg, #2563eb, #1e3a8a);
+            border-radius: 20px;
+        }
+
+        /* BUTTON */
+        .buttons {
+            text-align: center;
+            padding: 25px;
+            background: #f8fafc;
+        }
+
+        button {
+            padding: 12px 22px;
+            margin: 8px;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .print-btn {
+            background: #111827;
+            color: #fff;
+        }
+
+        /* MOBILE */
+        @media(max-width:768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* PRINT FIX */
+        @media print {
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            body {
+                background: #fff;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .buttons {
+                display: none;
+            }
+
+            .grid {
+                grid-template-columns: 1fr 1fr !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" id="resume">
+
+        <!-- HEADER -->
+        <div class="header">
+            <img src="assets/profile.jpg" alt="Profile Photo">
+
+            <h1>PROBAL DHALI</h1>
+
+            <p><strong>BE (AI ML) STUDENT</strong></p>
+
+            <div>
+                <p>
+                    <i class="fas fa-location-dot"></i>
+                    Khulna, Bangladesh | Tantultala, Socherbond, Lata, Paikgacha, 9280
+                </p>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:probaldhali2006@gmail.com">probaldhali2006@gmail.com</a> |
+                    <a href="mailto:24BAI71013@cuchd.in">24BAI71013@cuchd.in</a>
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+918170065131">+91 8170065131</a> |
+                    <a href="tel:+8801841062350">+880 1841062350</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- LINKS -->
+        <div class="section links">
+            <h2><i class="fas fa-link"></i> Websites and Social Links</h2>
+
+            <a href="https://www.linkedin.com/in/probal-dhali-a7569934a" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <strong>LinkedIn :</strong> linkedin.com/in/probal-dhali-a7569934a
+            </a>
+
+            <a href="https://github.com/probal2005" target="_blank">
+                <i class="fab fa-github"></i>
+                <strong>GitHub :</strong> github.com/probal2005
+            </a>
+
+            <a href="https://leetcode.com/u/probal2006" target="_blank">
+                <i class="fas fa-code"></i>
+                <strong>LeetCode :</strong> leetcode.com/u/probal2006
+            </a>
+
+            <a href="https://www.hackerrank.com/profile/probaldhali2006" target="_blank">
+                <i class="fas fa-laptop-code"></i>
+                <strong>HackerRank :</strong> hackerrank.com/profile/probaldhali2006
+            </a>
+
+            <a href="https://www.codechef.com/users/probaidhali" target="_blank">
+                <i class="fas fa-utensils"></i>
+                <strong>CodeChef :</strong> codechef.com/users/probaidhali
+            </a>
+        </div>
+
+        <!-- SUMMARY -->
+        <div class="section">
+            <h2><i class="fas fa-user"></i> Summary</h2>
+            <p>I am a Computer Science Student (AI & ML) with a strong foundation in Machine Learning,
+                Deep Learning, and Data Analysis. Experienced in Python, PyTorch, Web Development,
+                Full Stack Development, and Computer Vision.</p>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <p><strong>Bachelor of Engineering in Computer Science and Engineering (AI ML)</strong> — Chandigarh
+                University (2024–2028)</p>
+            <p><strong>Higher School Certificate (HSC)</strong> — Govt Joybangla College (2022–2024) (97%)</p>
+            <p><strong>Secondary School Certificate (SSC)</strong> — Khulna Shishu Secondary School (2020–2022) (100%)
+            </p>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="section">
+            <h2><i class="fab fa-folder-open"></i> Projects</h2>
+
+            <p><strong>Student Attendance System (Face Recognition)</strong> — Python, OpenCV
+                Built an AI-based system for automated attendance using real-time face recognition.
+                <a href="https://github.com/probal2005/Student-Attendance-System-using-Face-Recognition"
+                    target="_blank">GitHub</a>
+            </p>
+
+            <p><strong>Face Recognition Project</strong> — Python, OpenCV
+                Developed a face detection and recognition system using computer vision techniques.
+                <a href="https://github.com/probal2005/face_recognition_project" target="_blank">GitHub</a>
+            </p>
+
+            <p><strong>Personal Expense Tracker</strong> — HTML, CSS, JavaScript
+                Created a web app to manage and track daily expenses with a responsive UI.
+                <a href="https://github.com/probal2005/Personal-Expense-Tracker" target="_blank">GitHub</a>
+            </p>
+
+            <p><strong>Developer Portfolio Website</strong> — HTML, CSS, JavaScript
+                Designed a modern responsive portfolio to showcase projects and skills.
+                <a href="https://github.com/probal2005/dev-portfolio-website" target="_blank">GitHub</a>
+            </p>
+
+            <p><strong>QR Code Generator</strong> — HTML, CSS, JavaScript
+                Built a tool to generate QR codes dynamically based on user input.
+                <a href="https://github.com/probal2005/QR-Code-Generator" target="_blank">GitHub</a>
+            </p>
+
+            <p><strong>Simple Calculator</strong> — HTML, CSS, JavaScript
+                Developed a responsive calculator supporting basic arithmetic operations.
+                <a href="https://github.com/probal2005/Simple-Calculator-Made-by-Mr.-Probal" target="_blank">GitHub</a>
+            </p>
+
+        </div>
+
+        <!-- SKILLS -->
+        <div class="section">
+            <h2><i class="fas fa-brain"></i> Skills</h2>
+
+            <div class="grid">
+                <div>
+                    <div class="skill-item">Machine Learning<div class="bar">
+                            <div class="bar-fill" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Python<div class="bar">
+                            <div class="bar-fill" style="width:90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Data Analysis<div class="bar">
+                            <div class="bar-fill" style="width:80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Deep Learning<div class="bar">
+                            <div class="bar-fill" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Problem Solving<div class="bar">
+                            <div class="bar-fill" style="width:90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="skill-item">Data Visualization<div class="bar">
+                            <div class="bar-fill" style="width:80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Database<div class="bar">
+                            <div class="bar-fill" style="width:80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">AI Development<div class="bar">
+                            <div class="bar-fill" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Statistics<div class="bar">
+                            <div class="bar-fill" style="width:75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Team Work<div class="bar">
+                            <div class="bar-fill" style="width:85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <h2><i class="fas fa-language"></i> Languages</h2>
+
+            <div class="grid">
+                <div>
+                    <div class="skill-item">English<div class="bar">
+                            <div class="bar-fill" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">Bangla<div class="bar">
+                            <div class="bar-fill" style="width:100%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="skill-item">Hindi<div class="bar">
+                            <div class="bar-fill" style="width:50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROGRAMMING -->
+        <div class="section">
+            <h2><i class="fas fa-code"></i> Programming Languages</h2>
+            <p>HTML, CSS, JavaScript, Python, Java, C, C++, React.js, Node.js</p>
+        </div>
+
+        <!-- CERTIFICATIONS -->
+        <div class="section">
+            <h2><i class="fas fa-certificate"></i> Certifications</h2>
+            <ul>
+                <li>What is Generative AI? by LinkedIn Learning</li>
+                <li>Python Essential Training by LinkedIn Learning</li>
+                <li>RDBMS by IBM</li>
+                <li>JAVA by IBM</li>
+                <li>Database Management System by Oracle</li>
+                <li>Mathematics for Machine Learning: Linear Algebra by Coursera</li>
+                <li>Prompt Engineering Specialization by Vanderbilt University and Coursera</li>
+                <li>Python for Data Science, AI & Development by IBM and Coursera</li>
+                <li>Python for Beginners: Variables and Strings by Coursera</li>
+                <li>Relational Database Administration Capstone Project by Coursera and IBM</li>
+            </ul>
+        </div>
+
+        <!-- ACHIEVEMENTS -->
+        <div class="section">
+            <h2><i class="fas fa-trophy"></i> Achievements</h2>
+            <ul>
+                <li>Team Captain — Bangladesh National Cadet Corps (BNCC)</li>
+            </ul>
+        </div>
+
+        <!-- HOBBIES -->
+        <div class="section">
+            <h2><i class="fas fa-heart"></i> Hobbies</h2>
+            <p>
+                Programming, AI, Robotics, Coding, Problem Solving, Research,
+                Singing, Reading, Travelling, Cricket, Photography
+            </p>
+        </div>
+
+        <!-- PRINT BUTTON -->
+        <div class="buttons">
+            <button class="print-btn" onclick="window.print()">🖨 Print Resume</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
